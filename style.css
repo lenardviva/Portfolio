@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #1e1a1a;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.nav-line {
+    width: 750px;
+    height: 3px;
+    background: #ccc;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.center {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center h1 {
+    font-size: 70px;
+    letter-spacing: 7px;
+}
+
+
+.about {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.profile {
+    width: 400px;
+    border-radius: 50%;
+    margin-right: 70px;
+    margin-left: 60px;
+}
+.spacing {
+    width: 50px;
+    
+}
+.text h1 {
+    font-size: 50px;
+}
+
+.text p {
+    color: #ccc;
+}
+
+
+.education {
+    display: flex;
+    padding: 80px;
+}
+
+.edu-text {
+    flex: 1;
+}
+
+.edu-text h1 {
+    font-size: 80px;
+}
+
+.edu-images {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.edu-images img {
+    width: 100%;
+}
+
+
+
+footer {
+    position: relative;
+    height: 50px;
+}
+
+.footer-text {
+    text-align: left;
+    color: #aaa;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.footer-line {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    width: 650px; 
+    height: 3px;
+    background-color: #aaa;
+}
